@@ -1,0 +1,7 @@
+JSX代码经过babel编译之后变成React.createElement的表达式
+，这个表达式在render函数被调用的时候执行生成一个element。
+
+在首次渲染的时候，先去按照规则初始化element，接着ReactComponentComponentWrapper
+通过递归，
+最终调用ReactDOMComponent的mountComponent方法来帮助生
+成真实DOM节点
