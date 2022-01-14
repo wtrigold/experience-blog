@@ -14,5 +14,5 @@ async function log () {
       setTimeout(rs, time)
     })
   }
-  
+  //宏任务微任务输出题
   1 2 3 4
